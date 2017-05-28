@@ -1,0 +1,32 @@
+[
+  {
+    "book_ids": [
+      472, 
+      317
+    ], 
+    "price": 29.95, 
+    "id": 1, 
+    "title": "JavaScript bundle"
+  }, 
+  {
+    "book_ids": [
+      444, 
+      472, 
+      459
+    ], 
+    "price": 49.95, 
+    "id": 2, 
+    "title": "Testing bundle"
+  }, 
+  {
+    "book_ids": [
+      421, 
+      383, 
+      343
+    ], 
+    "price": 39.95, 
+    "id": 4, 
+    "title": "Popular Java"
+  }
+]
+

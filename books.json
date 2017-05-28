@@ -1,0 +1,1031 @@
+[
+  {
+    "title": "Functional Web Development with Elixir, OTP, and Phoenix",
+    "id": 471,
+    "price": 24.95,
+    "pub_year": 2017,
+    "img_url": "https://imagery.pragprog.com/products/471/lhelph_largebeta.jpg"
+  },
+  {
+    "title": "A Common-Sense Guide to Data Structures and Algorithms",
+    "id": 504,
+    "price": 24.95,
+    "pub_year": 2017,
+    "img_url": "https://imagery.pragprog.com/products/504/jwdsal_largebeta.jpg"
+  },
+  {
+    "title": "Rails, Angular, Postgres, and Bootstrap, Second Edition",
+    "id": 508,
+    "price": 24.95,
+    "pub_year": 2017,
+    "img_url": "https://imagery.pragprog.com/products/508/dcbang2_largebeta.jpg"
+  },
+  {
+    "title": "Effective Testing with RSpec 3",
+    "id": 444,
+    "price": 19.0,
+    "pub_year": 2017,
+    "img_url": "https://imagery.pragprog.com/products/444/rspec3_largebeta.jpg"
+  },
+  {
+    "title": "Design It!",
+    "id": 486,
+    "price": 26.95,
+    "pub_year": 2017,
+    "img_url": "https://imagery.pragprog.com/products/486/mkdsa_largebeta.jpg"
+  },
+  {
+    "title": "Scalable Cloud Ops with Fugue",
+    "id": 451,
+    "price": 25.95,
+    "pub_year": 2017,
+    "img_url": "https://imagery.pragprog.com/products/451/fugue_largebeta.jpg"
+  },
+  {
+    "title": "Swift Style",
+    "id": 516,
+    "price": 19.95,
+    "pub_year": 2017,
+    "img_url": "https://imagery.pragprog.com/products/516/esswift_largecover.jpg"
+  },
+  {
+    "title": "iOS 10 SDK Development",
+    "id": 505,
+    "price": 27.5,
+    "pub_year": 2017,
+    "img_url": "https://imagery.pragprog.com/products/505/adios4_largecover.jpg"
+  },
+  {
+    "title": "The Cucumber Book, Second Edition",
+    "id": 495,
+    "price": 24.95,
+    "pub_year": 2017,
+    "img_url": "https://imagery.pragprog.com/products/495/hwcuc2_largecover.jpg"
+  },
+  {
+    "title": "Take My Money",
+    "id": 479,
+    "price": 24.5,
+    "pub_year": 2017,
+    "img_url": "https://imagery.pragprog.com/products/479/nrwebpay_largecover.jpg"
+  },
+  {
+    "title": "tmux 2",
+    "id": 510,
+    "price": 18.95,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/510/bhtmux2_largecover.jpg"
+  },
+  {
+    "title": "Programming Elixir 1.3",
+    "id": 509,
+    "price": 25.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/509/elixir13_largecover.jpg"
+  },
+  {
+    "title": "Test-Driving JavaScript Applications",
+    "id": 472,
+    "price": 25.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/472/vsjavas_largecover.jpg"
+  },
+  {
+    "title": "Agile Web Development with Rails 5",
+    "id": 457,
+    "price": 28.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/457/rails5_largecover.jpg"
+  },
+  {
+    "title": "The Way of the Web Tester",
+    "id": 459,
+    "price": 19.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/459/jrtest_largecover.jpg"
+  },
+  {
+    "title": "Build Real-Time Web Apps with Phoenix",
+    "id": 512,
+    "price": 6.75,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/512/v-bhphnx_largecover.jpg"
+  },
+  {
+    "title": "Data Science Essentials in Python",
+    "id": 490,
+    "price": 19.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/490/dzpyds_largecover.jpg"
+  },
+  {
+    "title": "iOS Apps with REST APIs",
+    "id": 503,
+    "price": 29.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/503/d-cmrest_largecover.jpg"
+  },
+  {
+    "title": "Seven Mobile Apps in Seven Weeks",
+    "id": 445,
+    "price": 26.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/445/7apps_largecover.jpg"
+  },
+  {
+    "title": "Manage Your Project Portfolio, Second Edition",
+    "id": 483,
+    "price": 24.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/483/jrport2_largecover.jpg"
+  },
+  {
+    "title": "Web Development with Clojure, Second Edition",
+    "id": 446,
+    "price": 24.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/446/dswdcloj2_largecover.jpg"
+  },
+  {
+    "title": "Pragmatic Guide to Sass 3",
+    "id": 487,
+    "price": 19.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/487/pg_sass3_largecover.jpg"
+  },
+  {
+    "title": "Serverless Single Page Apps",
+    "id": 453,
+    "price": 15.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/453/brapps_largecover.jpg"
+  },
+  {
+    "title": "Deploying with JRuby 9k",
+    "id": 468,
+    "price": 16.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/468/jkdepj2_largecover.jpg"
+  },
+  {
+    "title": "Core Data in Objective-C, Third Edition",
+    "id": 436,
+    "price": 25.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/436/mzcd3_largecover.jpg"
+  },
+  {
+    "title": "Liftoff, Second Edition",
+    "id": 450,
+    "price": 15.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/450/liftoff_largecover.jpg"
+  },
+  {
+    "title": "Core Data in Swift",
+    "id": 464,
+    "price": 25.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/464/mzswift_largecover.jpg"
+  },
+  {
+    "title": "Fire in the Valley",
+    "id": 501,
+    "price": 23.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/501/a-fsfire_largecover.jpg"
+  },
+  {
+    "title": "Developing for Apple Watch, Second Edition",
+    "id": 465,
+    "price": 15.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/465/jkwatch2_largecover.jpg"
+  },
+  {
+    "title": "Designed for Use, Second Edition",
+    "id": 482,
+    "price": 25.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/482/lmuse2_largecover.jpg"
+  },
+  {
+    "title": "Programming Phoenix",
+    "id": 452,
+    "price": 23.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/452/phoenix_largecover.jpg"
+  },
+  {
+    "title": "Agile and Lean Program Management",
+    "id": 492,
+    "price": 35.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/492/d-jrlean_largecover.jpg"
+  },
+  {
+    "title": "DevOps in Practice",
+    "id": 493,
+    "price": 24.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/493/d-devops_largecover.jpg"
+  },
+  {
+    "title": "Secure Your Node.js Web Application",
+    "id": 443,
+    "price": 24.0,
+    "pub_year": 2016,
+    "img_url": "https://imagery.pragprog.com/products/443/kdnodesec_largecover.jpg"
+  },
+  {
+    "title": "Reactive Programming with RxJS",
+    "id": 423,
+    "price": 12.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/423/smreactjs_largecover.jpg"
+  },
+  {
+    "title": "Ruby Performance Optimization",
+    "id": 425,
+    "price": 24.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/425/adrpo_largecover.jpg"
+  },
+  {
+    "title": "Creating Great Teams",
+    "id": 463,
+    "price": 11.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/463/mmteams_largecover.jpg"
+  },
+  {
+    "title": "Practical Vim, Second Edition",
+    "id": 462,
+    "price": 23.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/462/dnvim2_largecover.jpg"
+  },
+  {
+    "title": "Modern Perl, Fourth Edition",
+    "id": 458,
+    "price": 34.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/458/swperl_largecover.jpg"
+  },
+  {
+    "title": "Deliver Audacious Web Apps with Ember 2",
+    "id": 427,
+    "price": 15.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/427/mwjsember_largecover.jpg"
+  },
+  {
+    "title": "Cucumber School (Java)",
+    "id": 478,
+    "price": 199.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/478/v-d-cukevidj_largecover.jpg"
+  },
+  {
+    "title": "Cucumber School (Ruby)",
+    "id": 475,
+    "price": 199.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/475/v-d-cukevidr_largecover.jpg"
+  },
+  {
+    "title": "Text Processing with Ruby",
+    "id": 437,
+    "price": 24.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/437/rmtpruby_largecover.jpg"
+  },
+  {
+    "title": "Pragmatic Scala",
+    "id": 399,
+    "price": 24.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/399/vsscala2_largecover.jpg"
+  },
+  {
+    "title": "Learn Game Programming with Ruby",
+    "id": 419,
+    "price": 15.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/419/msgpkids_largecover.jpg"
+  },
+  {
+    "title": "Exercises for Programmers",
+    "id": 461,
+    "price": 18.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/461/bhwb_largecover.jpg"
+  },
+  {
+    "title": "Customer Requirements",
+    "id": 470,
+    "price": 20.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/470/d-mbcreq_largecover.jpg"
+  },
+  {
+    "title": "Clojure Applied",
+    "id": 411,
+    "price": 25.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/411/vmclojeco_largecover.jpg"
+  },
+  {
+    "title": "Beyond Legacy Code",
+    "id": 447,
+    "price": 26.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/447/dblegacy_largecover.jpg"
+  },
+  {
+    "title": "Web Development Recipes 2nd Edition",
+    "id": 442,
+    "price": 25.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/442/wbdev2_largecover.jpg"
+  },
+  {
+    "title": "Mazes for Programmers",
+    "id": 439,
+    "price": 25.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/439/jbmaze_largecover.jpg"
+  },
+  {
+    "title": "Predicting the Unpredictable",
+    "id": 455,
+    "price": 20.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/455/d-jrpredict_largecover.jpg"
+  },
+  {
+    "title": "Real-World Kanban",
+    "id": 409,
+    "price": 19.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/409/mskanban_largecover.jpg"
+  },
+  {
+    "title": "XSLT Jumpstarter",
+    "id": 401,
+    "price": 24.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/401/djkxsl_largecover.jpg"
+  },
+  {
+    "title": "Hello, Android",
+    "id": 282,
+    "price": 24.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/282/eband4_largecover.jpg"
+  },
+  {
+    "title": "Your Code as a Crime Scene",
+    "id": 426,
+    "price": 24.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/426/atcrime_largecover.jpg"
+  },
+  {
+    "title": "Pragmatic Unit Testing in Java 8 with JUnit",
+    "id": 421,
+    "price": 20.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/421/utj2_largecover.jpg"
+  },
+  {
+    "title": "The Cucumber for Java Book",
+    "id": 383,
+    "price": 24.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/383/srjcuc_largecover.jpg"
+  },
+  {
+    "title": "The Nature of Software Development",
+    "id": 363,
+    "price": 15.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/363/rjnsd_largecover.jpg"
+  },
+  {
+    "title": "CoffeeScript",
+    "id": 400,
+    "price": 21.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/400/tbcoffee2_largecover.jpg"
+  },
+  {
+    "title": "Metaprogramming Elixir",
+    "id": 430,
+    "price": 11.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/430/cmelixir_largecover.jpg"
+  },
+  {
+    "title": "Arduino: A Quick-Start Guide, Second Edition",
+    "id": 422,
+    "price": 19.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/422/msard2_largecover.jpg"
+  },
+  {
+    "title": "The VimL Primer",
+    "id": 420,
+    "price": 11.0,
+    "pub_year": 2015,
+    "img_url": "https://imagery.pragprog.com/products/420/bkviml_largecover.jpg"
+  },
+  {
+    "title": "Rails 4 Test Prescriptions",
+    "id": 389,
+    "price": 25.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/389/nrtest2_largecover.jpg"
+  },
+  {
+    "title": "Seven More Languages in Seven Weeks",
+    "id": 410,
+    "price": 25.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/410/7lang_largecover.jpg"
+  },
+  {
+    "title": "Fire in the Valley",
+    "id": 308,
+    "price": 20.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/308/fsfire_largecover.jpg"
+  },
+  {
+    "title": "Learn to Program with Minecraft Plugins",
+    "id": 441,
+    "price": 19.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/441/ahmine2_largecover.jpg"
+  },
+  {
+    "title": "Mastering Clojure Macros",
+    "id": 395,
+    "price": 11.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/395/cjclojure_largecover.jpg"
+  },
+  {
+    "title": "Metaprogramming Ruby 2",
+    "id": 337,
+    "price": 25.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/337/ppmetr2_largecover.jpg"
+  },
+  {
+    "title": "Growing Rails Applications in Practice",
+    "id": 434,
+    "price": 15.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/434/d-kegrap_largecover.jpg"
+  },
+  {
+    "title": "Seven Concurrency Models in Seven Weeks",
+    "id": 340,
+    "price": 25.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/340/pb7con_largecover.jpg"
+  },
+  {
+    "title": "The Healthy Programmer (audio book)",
+    "id": 429,
+    "price": 24.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/429/a-jkthp_largecover.jpg"
+  },
+  {
+    "title": "Learn to Program with Minecraft Plugins",
+    "id": 364,
+    "price": 19.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/364/ahmine_largecover.jpg"
+  },
+  {
+    "title": "Automate with Grunt",
+    "id": 412,
+    "price": 11.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/412/bhgrunt_largecover.jpg"
+  },
+  {
+    "title": "Raspberry Pi: A Quick-Start Guide",
+    "id": 393,
+    "price": 14.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/393/msraspi2_largecover.jpg"
+  },
+  {
+    "title": "Functional Programming in Java",
+    "id": 343,
+    "price": 21.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/343/vsjava8_largecover.jpg"
+  },
+  {
+    "title": "Programming Sound with Pure Data",
+    "id": 357,
+    "price": 24.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/357/thsound_largecover.jpg"
+  },
+  {
+    "title": "Seven Web Frameworks in Seven Weeks",
+    "id": 299,
+    "price": 25.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/299/7web_largecover.jpg"
+  },
+  {
+    "title": "Grails 2: A Quick-Start Guide",
+    "id": 391,
+    "price": 24.0,
+    "pub_year": 2014,
+    "img_url": "https://imagery.pragprog.com/products/391/dkgrails2_largecover.jpg"
+  },
+  {
+    "title": "Crafting Rails 4 Applications",
+    "id": 353,
+    "price": 24.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/353/jvrails2_largecover.jpg"
+  },
+  {
+    "title": "The Agile Samurai (audio book)",
+    "id": 408,
+    "price": 23.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/408/a-jtrap_largecover.jpg"
+  },
+  {
+    "title": "Remote Pairing",
+    "id": 362,
+    "price": 11.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/362/jkrp_largecover.jpg"
+  },
+  {
+    "title": "Node.js the Right Way",
+    "id": 351,
+    "price": 11.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/351/jwnode_largecover.jpg"
+  },
+  {
+    "title": "The Dream Team Nightmare",
+    "id": 356,
+    "price": 15.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/356/ptdream_largecover.jpg"
+  },
+  {
+    "title": "Build Awesome Command-Line Applications in Ruby 2",
+    "id": 390,
+    "price": 22.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/390/dccar2_largecover.jpg"
+  },
+  {
+    "title": "Functional Programming Patterns in Scala and Clojure",
+    "id": 316,
+    "price": 24.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/316/mbfpp_largecover.jpg"
+  },
+  {
+    "title": "Modern C++ Programming with Test-Driven Development",
+    "id": 311,
+    "price": 26.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/311/lotdd_largecover.jpg"
+  },
+  {
+    "title": "3D Game Programming for Kids",
+    "id": 333,
+    "price": 24.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/333/csjava_largecover.jpg"
+  },
+  {
+    "title": "HTML5 and CSS3",
+    "id": 350,
+    "price": 25.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/350/bhh52e_largecover.jpg"
+  },
+  {
+    "title": "Programming Erlang",
+    "id": 305,
+    "price": 27.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/305/jaerlang2_largecover.jpg"
+  },
+  {
+    "title": "Agile Web Development with Rails 4",
+    "id": 196,
+    "price": 27.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/196/rails4_largecover.jpg"
+  },
+  {
+    "title": "Working with Ruby Threads",
+    "id": 384,
+    "price": 29.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/384/jsthreads_largecover.jpg"
+  },
+  {
+    "title": "Practical Programming",
+    "id": 336,
+    "price": 25.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/336/gwpy2_largecover.jpg"
+  },
+  {
+    "title": "101 Design Ingredients to Solve Big Tech Problems",
+    "id": 315,
+    "price": 24.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/315/ec101di_largecover.jpg"
+  },
+  {
+    "title": "Processing Big Data with MapReduce",
+    "id": 378,
+    "price": 9.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/378/v-jamapr_largecover.jpg"
+  },
+  {
+    "title": "Programming Groovy 2",
+    "id": 295,
+    "price": 22.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/295/vslg2_largecover.jpg"
+  },
+  {
+    "title": "Good Math",
+    "id": 329,
+    "price": 24.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/329/mcmath_largecover.jpg"
+  },
+  {
+    "title": "The Healthy Programmer",
+    "id": 323,
+    "price": 24.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/323/jkthp_largecover.jpg"
+  },
+  {
+    "title": "The Developer's Code (audio book)",
+    "id": 367,
+    "price": 19.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/367/a-kcdc_largecover.jpg"
+  },
+  {
+    "title": "OpenGL ES 2 for Android",
+    "id": 302,
+    "price": 25.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/302/kbogla_largecover.jpg"
+  },
+  {
+    "title": "Programming Ruby 1.9 & 2.0",
+    "id": 355,
+    "price": 28.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/355/ruby4_largecover.jpg"
+  },
+  {
+    "title": "Explore It!",
+    "id": 284,
+    "price": 23.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/284/ehxta_largecover.jpg"
+  },
+  {
+    "title": "Cucumber Recipes",
+    "id": 297,
+    "price": 24.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/297/dhwcr_largecover.jpg"
+  },
+  {
+    "title": "Working with TCP Sockets",
+    "id": 346,
+    "price": 29.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/346/jstcp_largecover.jpg"
+  },
+  {
+    "title": "The Definitive ANTLR 4 Reference",
+    "id": 256,
+    "price": 27.0,
+    "pub_year": 2013,
+    "img_url": "https://imagery.pragprog.com/products/256/tpantlr2_largecover.jpg"
+  },
+  {
+    "title": "Sublime Text 2",
+    "id": 347,
+    "price": 12.0,
+    "pub_year": 2012,
+    "img_url": "https://imagery.pragprog.com/products/347/v-mrst2_largecover.jpg"
+  },
+  {
+    "title": "Pomodoro Technique Illustrated (audio book)",
+    "id": 342,
+    "price": 19.0,
+    "pub_year": 2012,
+    "img_url": "https://imagery.pragprog.com/products/342/a-snfocus_largecover.jpg"
+  },
+  {
+    "title": "Async JavaScript",
+    "id": 317,
+    "price": 11.0,
+    "pub_year": 2012,
+    "img_url": "https://imagery.pragprog.com/products/317/tbajs_largecover.jpg"
+  },
+  {
+    "title": "The Cloud and Amazon Web Services",
+    "id": 334,
+    "price": 9.0,
+    "pub_year": 2012,
+    "img_url": "https://imagery.pragprog.com/products/334/v-jacloud_largecover.jpg"
+  },
+  {
+    "title": "Seven Databases in Seven Weeks",
+    "id": 251,
+    "price": 25.0,
+    "pub_year": 2012,
+    "img_url": "https://imagery.pragprog.com/products/251/rwdata_largecover.jpg"
+  },
+  {
+    "title": "Programming Clojure",
+    "id": 257,
+    "price": 25.0,
+    "pub_year": 2012,
+    "img_url": "https://imagery.pragprog.com/products/257/shcloj2_largecover.jpg"
+  },
+  {
+    "title": "Technical Blogging",
+    "id": 268,
+    "price": 23.0,
+    "pub_year": 2012,
+    "img_url": "https://imagery.pragprog.com/products/268/actb_largecover.jpg"
+  },
+  {
+    "title": "The Developer's Code",
+    "id": 270,
+    "price": 22.0,
+    "pub_year": 2012,
+    "img_url": "https://imagery.pragprog.com/products/270/kcdc_largecover.jpg"
+  },
+  {
+    "title": "Lean from the Trenches",
+    "id": 271,
+    "price": 23.0,
+    "pub_year": 2011,
+    "img_url": "https://imagery.pragprog.com/products/271/hklean_largecover.jpg"
+  },
+  {
+    "title": "New Programmer's Survival Manual",
+    "id": 203,
+    "price": 23.0,
+    "pub_year": 2011,
+    "img_url": "https://imagery.pragprog.com/products/203/jcdeg_largecover.jpg"
+  },
+  {
+    "title": "Programming Concurrency on the JVM",
+    "id": 227,
+    "price": 25.0,
+    "pub_year": 2011,
+    "img_url": "https://imagery.pragprog.com/products/227/vspcon_largecover.jpg"
+  },
+  {
+    "title": "Exceptional Ruby",
+    "id": 266,
+    "price": 15.0,
+    "pub_year": 2011,
+    "img_url": "https://imagery.pragprog.com/products/266/ager_largecover.jpg"
+  },
+  {
+    "title": "Test-Driven Development for Embedded C",
+    "id": 173,
+    "price": 25.0,
+    "pub_year": 2011,
+    "img_url": "https://imagery.pragprog.com/products/173/jgade_largecover.jpg"
+  },
+  {
+    "title": "Agile in a Flash",
+    "id": 217,
+    "price": 13.5,
+    "pub_year": 2011,
+    "img_url": "https://imagery.pragprog.com/products/217/olag_largecover.jpg"
+  },
+  {
+    "title": "Driving Technical Change",
+    "id": 183,
+    "price": 24.0,
+    "pub_year": 2010,
+    "img_url": "https://imagery.pragprog.com/products/183/trevan_largecover.jpg"
+  },
+  {
+    "title": "Pragmatic Guide to Git",
+    "id": 188,
+    "price": 18.0,
+    "pub_year": 2010,
+    "img_url": "https://imagery.pragprog.com/products/188/pg_git_largecover.jpg"
+  },
+  {
+    "title": "Pragmatic Guide to Subversion",
+    "id": 193,
+    "price": 18.0,
+    "pub_year": 2010,
+    "img_url": "https://imagery.pragprog.com/products/193/pg_svn_largecover.jpg"
+  },
+  {
+    "title": "Seven Languages in Seven Weeks",
+    "id": 195,
+    "price": 25.0,
+    "pub_year": 2010,
+    "img_url": "https://imagery.pragprog.com/products/195/btlang_largecover.jpg"
+  },
+  {
+    "title": "The Agile Samurai",
+    "id": 176,
+    "price": 25.0,
+    "pub_year": 2010,
+    "img_url": "https://imagery.pragprog.com/products/176/jtrap_largecover.jpg"
+  },
+  {
+    "title": "Test Driven Development",
+    "id": 223,
+    "price": 7.5,
+    "pub_year": 2010,
+    "img_url": "https://imagery.pragprog.com/products/223/v-kbtdd_largecover.jpg"
+  },
+  {
+    "title": "SQL Antipatterns",
+    "id": 167,
+    "price": 25.0,
+    "pub_year": 2010,
+    "img_url": "https://imagery.pragprog.com/products/167/bksqla_largecover.jpg"
+  },
+  {
+    "title": "Language Implementation Patterns",
+    "id": 160,
+    "price": 24.0,
+    "pub_year": 2009,
+    "img_url": "https://imagery.pragprog.com/products/160/tpdsl_largecover.jpg"
+  },
+  {
+    "title": "Pomodoro Technique Illustrated",
+    "id": 190,
+    "price": 19.0,
+    "pub_year": 2009,
+    "img_url": "https://imagery.pragprog.com/products/190/snfocus_largecover.jpg"
+  },
+  {
+    "title": "Debug It!",
+    "id": 130,
+    "price": 23.0,
+    "pub_year": 2009,
+    "img_url": "https://imagery.pragprog.com/products/130/pbdp_largecover.jpg"
+  },
+  {
+    "title": "Agile Coaching",
+    "id": 150,
+    "price": 25.0,
+    "pub_year": 2009,
+    "img_url": "https://imagery.pragprog.com/products/150/sdcoach_largecover.jpg"
+  },
+  {
+    "title": "Land the Tech Job You Love",
+    "id": 126,
+    "price": 16.0,
+    "pub_year": 2009,
+    "img_url": "https://imagery.pragprog.com/products/126/algh_largecover.jpg"
+  },
+  {
+    "title": "The Passionate Programmer",
+    "id": 137,
+    "price": 18.0,
+    "pub_year": 2009,
+    "img_url": "https://imagery.pragprog.com/products/137/cfcar2_largecover.jpg"
+  },
+  {
+    "title": "Learn to Program",
+    "id": 139,
+    "price": 18.5,
+    "pub_year": 2009,
+    "img_url": "https://imagery.pragprog.com/products/139/ltp2_largecover.jpg"
+  },
+  {
+    "title": "The Ruby Object Model and Metaprogramming",
+    "id": 122,
+    "price": 5.0,
+    "pub_year": 2008,
+    "img_url": "https://imagery.pragprog.com/products/122/v-dtrubyom_largecover.jpg"
+  },
+  {
+    "title": "Pragmatic Version Control Using Git",
+    "id": 109,
+    "price": 25.0,
+    "pub_year": 2008,
+    "img_url": "https://imagery.pragprog.com/products/109/tsgit_largecover.jpg"
+  },
+  {
+    "title": "Pragmatic Thinking and Learning",
+    "id": 107,
+    "price": 24.0,
+    "pub_year": 2008,
+    "img_url": "https://imagery.pragprog.com/products/107/ahptl_largecover.jpg"
+  },
+  {
+    "title": "Pragmatic Unit Testing in C# with NUnit",
+    "id": 52,
+    "price": 20.0,
+    "pub_year": 2007,
+    "img_url": "https://imagery.pragprog.com/products/52/utc2_largecover.jpg"
+  },
+  {
+    "title": "Manage It!",
+    "id": 83,
+    "price": 25.0,
+    "pub_year": 2007,
+    "img_url": "https://imagery.pragprog.com/products/83/jrpm_largecover.jpg"
+  },
+  {
+    "title": "The Definitive ANTLR Reference",
+    "id": 84,
+    "price": 27.0,
+    "pub_year": 2007,
+    "img_url": "https://imagery.pragprog.com/products/84/tpantlr_largecover.jpg"
+  },
+  {
+    "title": "Release It!",
+    "id": 93,
+    "price": 24.0,
+    "pub_year": 2007,
+    "img_url": "https://imagery.pragprog.com/products/93/mnee_largecover.jpg"
+  },
+  {
+    "title": "Agile Retrospectives",
+    "id": 75,
+    "price": 23.0,
+    "pub_year": 2006,
+    "img_url": "https://imagery.pragprog.com/products/75/dlret_largecover.jpg"
+  },
+  {
+    "title": "Practices of an Agile Developer",
+    "id": 40,
+    "price": 23.0,
+    "pub_year": 2006,
+    "img_url": "https://imagery.pragprog.com/products/40/pad_largecover.jpg"
+  },
+  {
+    "title": "Behind Closed Doors",
+    "id": 46,
+    "price": 19.5,
+    "pub_year": 2005,
+    "img_url": "https://imagery.pragprog.com/products/46/rdbcd_largecover.jpg"
+  },
+  {
+    "title": "Ship It!",
+    "id": 43,
+    "price": 20.0,
+    "pub_year": 2005,
+    "img_url": "https://imagery.pragprog.com/products/43/prj_largecover.jpg"
+  },
+  {
+    "title": "Programming Ruby",
+    "id": 49,
+    "price": 25.0,
+    "pub_year": 2004,
+    "img_url": "https://imagery.pragprog.com/products/49/ruby_largecover.jpg"
+  },
+  {
+    "title": "Pragmatic Version Control using CVS",
+    "id": 58,
+    "price": 10.0,
+    "pub_year": 2003,
+    "img_url": "https://imagery.pragprog.com/products/58/vcc_largecover.jpg"
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "id": 59,
+    "price": 32.0,
+    "pub_year": 1999,
+    "img_url": "https://imagery.pragprog.com/products/59/tpp_largecover.jpg"
+  }
+]
