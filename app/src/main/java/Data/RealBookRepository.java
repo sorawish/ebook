@@ -19,6 +19,9 @@ import java.util.Objects;
 import java.util.Observable;
 import java.util.Observer;
 
+import static com.example.sorawish.myapplication.BookPresenter.DOWNLOADBOOK_CODE;
+import static com.example.sorawish.myapplication.BookPresenter.DOWNLOADIMAGE_CODE;
+
 /**
  * Created by Clunctia on 5/27/2017.
  */
@@ -159,6 +162,20 @@ public class RealBookRepository extends Observable implements Repository, Observ
                 return result;
             }
         }
-    }
 
+        @Override
+        protected void onPostExecute(ArrayList<Book> results) {
+            if( results != null ) {
+                books.clear();
+                for (Book t : results) {
+                    t.addObserver(RealBookRepository.getInstance());
+                    books.add(t);
+                }
+                setChanged();
+                notifyObservers(DOWNLOADBOOK_CODE);
+            }
+        }
+    }
 }
+
+

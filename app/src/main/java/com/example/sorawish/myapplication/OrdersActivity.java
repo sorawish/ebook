@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import Adapter.OrdersCustomAdapter;
 import Data.Book;
 import Data.RealBookRepository;
 
@@ -34,7 +35,7 @@ public class OrdersActivity extends AppCompatActivity implements BookView {
     public void back(View view){ finish();}
 
     public void initializeShowMoney(){
-        TextView textView = (TextView) findViewById(R.id.show_amount_user_orders_texview);
+        TextView textView = (TextView) findViewById(R.id.show_amount_user_orders_textview);
         String text = String.format("%.2f", presenter.getUser().getMoney());
         textView.setText(text);
     }
