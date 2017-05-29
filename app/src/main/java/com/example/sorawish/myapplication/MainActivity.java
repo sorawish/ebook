@@ -1,105 +1,193 @@
 package com.example.sorawish.myapplication;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.Spinner;
+import java.util.ArrayList;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.net.URLConnection;
+import Adapter.MainCustomAdapter;
+import Data.Book;
+import Data.RealBookRepository;
 
-import Data.MockUpBook;
+import static com.example.sorawish.myapplication.BookPresenter.SEARCH_BY_PUBYEAR;
+import static com.example.sorawish.myapplication.BookPresenter.SEARCH_BY_TITLE;
 
-public class MainActivity extends Activity {
-    ListView listView ;
-    MockUpBook mockUpBook;
+public class MainActivity  extends AppCompatActivity implements BookView {
+
+    private BookPresenter presenter;
+    private RealBookRepository repository;
+
+    private final String CHECK_FUND = "Check Fund";
+    private final String ADD_FUND = "Add Fund";
+    private final String CART = "Cart";
+    private final String ORDER = "Orders";
+    public static final String AMOUNT_ADD_FUND = "adding_fund_amount_key";
+    public static final int ADDING_FUND_REQUEST = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mockUpBook = new MockUpBook();
 
-        listView = (ListView) findViewById(R.id.list);
-        String [] values = mockUpBook.getMockUp();
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1, android.R.id.text1, values);
-
-
-        listView.setAdapter(adapter);
-
-        listView.setOnItemClickListener(new OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view,
-                                    int position, long id) {
-
-                int itemPosition     = position;
-
-                String  itemValue    = (String) listView.getItemAtPosition(position);
-
-                Toast.makeText(getApplicationContext(),
-                        "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
-                        .show();
-
-            }
-
-        });
+        repository = RealBookRepository.getInstance();
+        presenter = new BookPresenter(repository, this);
+        repository.addObserver(presenter);
+        repository.loadData();
+        initializeSpinner();
+        initializeRadioButton();
+        initializeEditText();
     }
 
-    public void onSaveInstanceState(){
-
+    @Override
+    public void displayList(ArrayList<Book> books) {
+        MainCustomAdapter mainCustomAdapter = new MainCustomAdapter(books, presenter, this);
+        ListView listView = (ListView) findViewById(R.id.show_list_listview);
+        listView.setAdapter(mainCustomAdapter);
     }
 
-    private String loadBookJson(){
-        String result = "";
-        try{
-            URL jittatUrl = new URL(" https://theory.cpe.ku.ac.th/~jittat/courses/sw-spec/ebooks/books.json");
-            URLConnection connection = jittatUrl.openConnection();
-            BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-            String inputLine = "";
-            while((inputLine = in.readLine() )!= null){
-                System.out.println(inputLine);
-                in.close();
-                return null;
-            }
-            return result;
-        } catch (Exception e){
-            return null;
+    public void createCheckFundDialog() {
+        AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+        alertDialog.setTitle("Check Fund");
+        String value = String.format("%.2f", presenter.getUser().getMoney());
+        alertDialog.setMessage(value);
+        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "DISMISS",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+        alertDialog.show();
+    }
+
+    public void createInformationDialog(int position) {
+        AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+        alertDialog.setTitle("Book Information");
+        Book b = repository.getBookList().get(position);
+        String value = String.format("ID: %s \nTitle: %s \nPrice: %.2f \nPublished Year: %s", b.getId(), b.getTitle(), b.getPrice(), b.getPub_year());
+        alertDialog.setMessage(value);
+        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "DISMISS",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+        alertDialog.show();
+    }
+
+    @Override
+    public void createDialog(int b) {
+        if(b == -1) {
+            createCheckFundDialog();
+        } else {
+            createInformationDialog(b);
         }
     }
 
-    @Override
-    public void onStart(){
-        super.onStart();
+    public void initializeSpinner() {
+        Spinner spinner = (Spinner) findViewById(R.id.account_spinner);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.account_array, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                String selectedItem = parent.getItemAtPosition(position).toString();
+                if(selectedItem.contains(CHECK_FUND)) {
+                    presenter.createDialog(-1);
+                } else if(selectedItem.contains(ADD_FUND)) {
+                    startAddingFund();
+                } else if(selectedItem.contains(CART)) {
+                    startCartActivity();
+                } else if(selectedItem.contains(ORDER)) {
+                    startOrdersActivity();
+                }
+                parent.setSelection(0);
+            }
 
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
-    @Override
-    public void onResume(){
-        super.onResume();
+    public void initializeRadioButton() {
+        RadioGroup radioGroup = (RadioGroup) findViewById(R.id.search_by_radiogroup);
+        radioGroup.check(R.id.search_by_title_radiobutton);
     }
 
-    @Override
-    public void onStop(){
-        super.onStop();
+    public void initializeEditText() {
+        EditText editText = (EditText) findViewById(R.id.search_edit_text);
+        editText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                presenter.searchBy(s.toString());
+            }
+        });
     }
 
-    @Override
-    public void onPause(){
-        super.onPause();
+    public void onRadioButtonClicked(View view) {
+        RadioButton radioButton = (RadioButton) findViewById(view.getId());
+        switch (radioButton.getId()) {
+            case R.id.search_by_title_radiobutton:
+                presenter.onChceckRadioButton(SEARCH_BY_TITLE);
+                break;
+
+            case R.id.search_by_pubyear_radiobutton:
+                presenter.onChceckRadioButton(SEARCH_BY_PUBYEAR);
+                break;
+
+            default:
+                System.out.println("error");
+        }
     }
 
-    @Override
-    public void onRestart(){
-        super.onRestart();
+    public void startAddingFund() {
+        Intent addFundIntent = new Intent(this, AddMoneyActivity.class );
+        startActivityForResult(addFundIntent, ADDING_FUND_REQUEST);
     }
 
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+        if (requestCode == ADDING_FUND_REQUEST) {
+            if (resultCode == RESULT_OK) {
+                double amount = (double) data.getSerializableExtra(AMOUNT_ADD_FUND);
+                presenter.addMoneyToUser(amount);
+            }
+        }
+    }
+
+    public void startCartActivity() {
+        Intent cartIntent = new Intent(this, CartActivity.class);
+        startActivity(cartIntent);
+    }
+
+    public void startOrdersActivity() {
+        Intent ordersIntent = new Intent(this, OrdersActivity.class);
+        startActivity(ordersIntent);
+    }
 
 
 

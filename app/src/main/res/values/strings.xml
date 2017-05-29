@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">eBooks</string>
+    <string name="list_books">List of Books</string>
+    <string name="search_by">Search By : </string>
+    <string name="title">Title</string>
+    <string name="pub_year">Published Year</string>
+    <string-array name="account_array">
+        <item>Account</item>
+        <item>Check Fund</item>
+        <item>Add Fund</item>
+        <item>Cart</item>
+        <item>Orders</item>
+        <item>Promotions</item>
+    </string-array>
+    <string name="money">Money</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="add_fund">Add Fund</string>
+    <string name="amount">Amount</string>
+    <string name="insert_amount">insert amount of money</string>
+    <string name="submit">SUMMIT</string>
+    <string name="cart">Cart</string>
+    <string name="proceed_checkout">CHECKOUT</string>
+    <string name="cancel">CANCEL</string>
+    <string name="delete">DELETE</string>
+    <string name="total">Total : </string>
+    <string name="order">Orders</string>
+    <string name="back">BACK</string>
+    <string name="refund">REFUND</string>
+    <string name="promotions">Promotions</string>
+    <string name="add">ADD</string>
 </resources>
